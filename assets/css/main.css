@@ -1762,6 +1762,20 @@ section,
   #sitename {
     font-size: 22px; /* الحجم للموبايل */
   }
+  .call-to-action {
+    padding: 30px 0;
+
+
+  }
+  section, .section {
+
+    padding: 12px 0 52px 0px;
+
+}
+.call-to-action h3 {
+
+  padding-top: 69px;
+}
 }
 video {
   width: 100%;
