@@ -1776,6 +1776,10 @@ section,
 
   padding-top: 69px;
 }
+  .header .logo h1 {
+  font-size: 21px;
+
+}
 }
 video {
   width: 100%;
