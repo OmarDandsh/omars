@@ -1713,6 +1713,15 @@ section,
   padding: 10px;
   cursor: pointer;
 }
+.language-select1 {
+  position: fixed;
+  bottom: 4px;
+  left: 6px;
+  z-index: 1000;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
 .language-option {
   display: flex;
   align-items: center;
