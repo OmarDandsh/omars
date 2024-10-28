@@ -691,7 +691,45 @@
       </div>
 
     </section><!-- /Contact Section -->
-   
+       <section id="stats" class="stats section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="10" class="purecounter"></span>
+              <p><strong id="qwert1">Experience (in years) </strong> <span></span></p>
+            </div>
+          </div>
+    
+
+    
+          <div class="col-lg-4 col-md-6">
+            <div class="stats-item">
+              <i class="fas fa-elevator" style="margin-top: 26px;"></i>
+              <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="5" class="purecounter"></span>
+              <p><strong id="qwert2">Active Elevator Maintenance</strong> <span></span></p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6">
+            <div class="stats-item">
+              <i class="fas fa-check-circle" style="margin-top: 26px;"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="100" class="purecounter"></span>
+              <p><strong id="qwert3" > Delivered Elevator</strong> <span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.1.1/dist/purecounter_vanilla.js"></script>
+<script>
+  new PureCounter();
+</script>
+   <br>
   </main>
 
   <footer id="footer" class="footer position-relative dark-background">
@@ -768,7 +806,7 @@
     </div>
 
   </footer>
- <script>
+   <script>
     const translations = {
       en: {
      
@@ -779,14 +817,13 @@
         aboutf: 'About',
         services: 'Services',
         servicesf: 'Services',
-    
+        qwert1:' Experience (in years)',
         Privacyf:'Privacy policy',
-       
+        qwert2:' Active Elevator Maintenance',
+        qwert3:' Delivered Elevator',
         teamf: 'Team',
         h4floter:'Useful Links',
-
         contact: 'Contact',
-  
         heroTitle: 'Welcome to ELEVATORS WORLD',
         heroDescription: 'We are a specialized team in selling and installing elevators, providing comprehensive solutions that combine quality and innovation to meet your needs',
         heroButton: 'Get Started',
@@ -854,10 +891,12 @@
         services: 'الخدمات',
         servicesf: 'الخدمات',
         Privacyf:'سياسة الخصوصية',
-   
-      
+        qwert1:' الخبرة (بالسنوات)',
+
+        qwert2:' صيانة المصاعد النشطة',
         teamf: 'الفريق',
         h4floter:'روابط مفيدة',
+        qwert3:' المصاعد المُسَلَّمة',
 
         contact: 'اتصل بنا',
       
@@ -923,8 +962,9 @@
         services: 'Hizmetler',
         servicesf: 'Hizmetler',
         h4floter: 'Faydalı Bağlantılar',
-      
-      
+        qwert1:' TECRÜBE (YIL)',
+        qwert2:'   AKTIF ASANSÖR BAKIMI',
+        qwert3:' TESLIM EDILMIŞ ASNASÖR ',
         teamf: 'Takım',
         contact: 'İletişim',
         heroTitle: 'Asansörler Dünyasına Hoş Geldiniz',
@@ -995,14 +1035,14 @@
 
       document.getElementById('about').textContent = translations[language].about;
       document.getElementById('aboutf').textContent = translations[language].aboutf;
-
+      document.getElementById('qwert1').textContent = translations[language].qwert1;
       document.getElementById('services').textContent = translations[language].services;
       document.getElementById('servicesf').textContent = translations[language].servicesf;
+      document.getElementById('qwert2').textContent = translations[language].qwert2;
+      document.getElementById('qwert3').textContent = translations[language].qwert3;
 
       document.getElementById('teamf').textContent = translations[language].teamf;
-
       document.getElementById('contact').textContent = translations[language].contact;
-
       document.getElementById('hero-title').textContent = translations[language].heroTitle;
       document.getElementById('hero-description').textContent = translations[language].heroDescription;
       document.getElementById('hero-button').textContent = translations[language].heroButton;
